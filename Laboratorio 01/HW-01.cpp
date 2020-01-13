@@ -1,21 +1,24 @@
 #include <iostream>
 using namespace std;
 
-int prime_sum();
+int sum_prime();
 
 int main(){
-prime_sum();
+    sum_prime();
 }
 
-int prime_sum(int n){
-    int sum = 0;
-    
+int sum_prime(){
+    int num, div;
+     int suma=0;
+     for (num=2; num<100; num++)
+       {
+       for (div=2; num%div!=0; div++);
+       if (div == num)
+         {
+         suma=suma+num;
+         }
+       }
+     cout<<"\n \tLa suma de los numeros primos es: "<<suma<<endl;  
+     }
 
-    for (int i = 2; i <= n/2; i++, n++){
-       if (n%i == 0) {
-         sum = sum+i;
-      }
- 
-}
-cout<<"La suma de numeros primos es: " <<sum<<endl; 
-}
+
