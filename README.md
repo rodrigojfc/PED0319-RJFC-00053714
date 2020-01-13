@@ -4,9 +4,11 @@
 
 ## LABORATORIO 01
 
-## OBSERVACIONES AL INSTRUCTOR
-* 
+### OBSERVACIONES AL INSTRUCTOR
 
-## DIFICULTADES EN EJERCICIOS DE TAREA
-* Iteraciones con strings 
-* Logica de "for" para los numeros primos
+-
+
+### DIFICULTADES EN EJERCICIOS DE TAREA
+
+- Iteraciones con strings
+- Logica de "for" para los numeros primos
