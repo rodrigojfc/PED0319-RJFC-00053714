@@ -25,3 +25,4 @@
 - Reserva de espacios de memoria
 - Creacion de estructuras
 - Repaso de punteros
+* Manejo de git
