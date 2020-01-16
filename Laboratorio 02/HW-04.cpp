@@ -1,15 +1,19 @@
-#include <iostream>
+//Solo
+#include <iostream> // Input, Output
 #include <string> //string types
 #include <math.h>       /* pow */    
 
 using namespace std;
 
+//struct para guardar coeficientes de funcion cuadratica
 struct Square{
     int a, b, c;
 };
 
+
 void roots(Square mvalue);
 
+// Se piden los valores de los coeficientes
 int main(void){
     Square variable;
 
@@ -22,6 +26,8 @@ int main(void){
 return 0;
 }
 
+
+//se evalua el discriminante y se realizan las operaciones para obtener los valores de x
 void roots(Square mvalue){
     int root_value;
     float x,x1, x2;

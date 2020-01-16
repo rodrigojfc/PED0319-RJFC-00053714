@@ -1,7 +1,9 @@
-#include <iostream> 
+// Rodrigo Jose Flores Chevez y Laura Ivonne Shahidinejad Martinez
+#include <iostream>  //input , output
 #include <string> //string types
 using namespace std;
 
+// Funcion de registro de la persona.
 struct Persondata{
     int age, years_worked, sex_gender;
     float salary;
@@ -11,6 +13,7 @@ struct Persondata{
 
 void is_jubiled(Persondata show_jub);
 
+// Menu principal
 int main(void){
 
     Persondata p1;
@@ -25,24 +28,25 @@ int main(void){
     return 0;
 }
 
+// Funcion de condiciones para calcular la jubilacion o no.
 void is_jubiled(Persondata show_jub){
 
     if (show_jub.sex_gender == 1){
     if (show_jub.age >= 60 && show_jub.years_worked >= 25){
-        cout << show_jub.name << " cumple los requisitos para jubilacion" << endl;
+        cout << show_jub.name << " cumple los requisitos para jubilacion." << endl;
 
     }
     else{
-        cout << "Aun no cumple los requisitos para jubilacion: 25 anios laborados y tener 60 anios de edad." << endl;
+        cout << "Aun no cumple los requisitos para jubilacion: 25 años laborados y tener 60 años de edad." << endl;
     }
     
     }
     else if(show_jub.sex_gender == 2){
         if (show_jub.age >= 55 && show_jub.years_worked >= 25){
-            cout << show_jub.name << " cumple los requisitos para jubilacion" << endl;
+            cout << show_jub.name << " cumple los requisitos para jubilacion." << endl;
         }
         else{
-            cout << "Aun no cumple los requisitos para jubilacion: 25 anios laborados y tener 55 anios de edad" << endl;
+            cout << "Aun no cumple los requisitos para jubilacion: 25 años laborados y tener 55 años de edad" << endl;
         }
     }
 }
