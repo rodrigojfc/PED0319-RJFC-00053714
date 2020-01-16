@@ -31,6 +31,7 @@ void jerigonzaP(string word, int size, int pos)
         }
         else
         {
+            cout << word[pos];
             jerigonzaP(word, size, pos + 1);
         }
     }
