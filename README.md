@@ -25,4 +25,25 @@
 - Reserva de espacios de memoria
 - Creacion de estructuras
 - Repaso de punteros
+
 * Manejo de git
+
+## LABORATORIO 03
+
+### OBSERVACIONES AL INSTRUCTOR
+
+\*
+
+### DIFICULTADES EN EJERCICIOS DE TAREA
+
+- Asignacion de espacio en la memoria para arreglos
+
+## LABORATORIO 04
+
+### OBSERVACIONES AL INSTRUCTOR
+
+\*
+
+### DIFICULTADES EN EJERCICIOS DE TAREA
+
+- Construir la funcion de recursion
