@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <string> // string types
 using namespace std;
 
 
@@ -33,7 +33,9 @@ int main(void){
 return 0;
 }
 
+//Funcion para calcular el costo total
 int salePrice(Appliance* Array, int size, int aux){
+    
     if (aux == size)
         return 0;
     else{

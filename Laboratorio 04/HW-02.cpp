@@ -1,8 +1,10 @@
 #include <iostream>
 using namespace std;
 
-
+//prototipos
 int fibonacci(int N);
+
+
 
 int main(void){
     int num = 0;
@@ -22,6 +24,8 @@ int main(void){
     return 0;
 }
 
+
+//funcion recursiva fibonacci
 int fibonacci(int N){
     if (N == 0)
         return 0;
