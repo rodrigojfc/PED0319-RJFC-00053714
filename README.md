@@ -32,7 +32,7 @@
 
 ### OBSERVACIONES AL INSTRUCTOR
 
-\*
+*
 
 ### DIFICULTADES EN EJERCICIOS DE TAREA
 
@@ -42,8 +42,10 @@
 
 ### OBSERVACIONES AL INSTRUCTOR
 
-\*
+* Ir mas despacio en las explicaciones de codigo
+
 
 ### DIFICULTADES EN EJERCICIOS DE TAREA
 
 - Construir la funcion de recursion
+* Logica para invertir un numero
