@@ -1,33 +1,32 @@
-#include <iostream>
-#include <math.h>
+#include <iostream> 
 using namespace std;
 
-int reverse_function(int num);
+//prototipo
+void reverse_function(int num, int sum);
 
 int main(void){
-    int num;
+    int num, sum = 0;
     int reversed_number;
 
     cout <<"Ingrese numero a invertir: ";
     cin >> num;
 
 
-    reversed_number =  reverse_function(num);
-    cout << reversed_number << endl;
+    reverse_function(num, sum);
+    
 
 return 0;
 }
 
-int reverse_function(int num){
-    static int sum = 0;
+//funcion recursiva para invertir numero
+void reverse_function(int num, int sum){
    
     if (num == 0)
-        return 0;
-    
+        cout << sum << endl;
+    else{
     sum = sum*10; 
     sum = sum + num % 10;
-    reverse_function(num/10);
-    
-    return sum;
+    reverse_function(num/10, sum);   
+    }
 }
 
