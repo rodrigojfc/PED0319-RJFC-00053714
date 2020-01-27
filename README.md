@@ -50,3 +50,10 @@
 - Construir la funcion de recursion
 * Logica para invertir un numero
 
+## LABORATORIO 05
+
+### OBSERVACIONES AL INSTRUCTOR
+* 
+
+### DIFICULTADES EN EJERCICIOS DE TAREA
+* Repaso en creacion de pilas desde cero
