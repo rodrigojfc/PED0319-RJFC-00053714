@@ -64,4 +64,14 @@
 *
 
 ### DIFICULTADES EN EJERCICIOS DE TAREA
+*Estructuras de colas
+
+## LABORATORIO 07
+
+### OBSERVACIONES AL INSTRUCTOR
 *
+
+### DIFICULTADES EN LOS EJERCICIOS DE TAREA
+* Logica para punteros dobles
+* Estructura de listas
+* Recursion
