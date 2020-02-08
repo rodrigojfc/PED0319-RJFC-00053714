@@ -75,3 +75,13 @@
 * Logica para punteros dobles
 * Estructura de listas
 * Recursion
+
+## LABORATORIO 08
+
+### OBSERVACIONES AL INSTRUCTOR
+* Buen manejo de temas a explicar
+* Ejemplos dados son acorde a lo que se va a evaluar
+
+### DIFICULTADES EN LOS EJERCICIOS DE TAREA
+* Manejo de punteros
+* Logica para la creacion de arboles
